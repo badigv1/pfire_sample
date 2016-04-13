@@ -14,9 +14,10 @@ SELECT
    QA_RUN_SUITE.SUITE_RUN_ID  IN  (499)
    AND
    QA_RUN_CASE.CASE_NM  IN  ( 'SNS_S_PROD_NMAP_RDM'  )
-   AND
-   QA_RUN_SUITE.INSTANCE_NM  =  'DK'
+   --AND
+  -- QA_RUN_SUITE.INSTANCE_NM  =  'DK'
    AND
    QA_RUN_VAR.ROWS_DATA  <>  0
   )
-)
+) where instance_nm='DK'
+
