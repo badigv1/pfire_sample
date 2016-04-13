@@ -19,5 +19,6 @@ SELECT
    AND
    QA_RUN_VAR.ROWS_DATA  <>  0
   )
-) where instance_nm='DK'
+) where instance_nm='XY'
+
 
